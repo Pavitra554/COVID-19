@@ -9,18 +9,46 @@
     <a aria-label="Vercel logo" href="https://reactjs.org/">
     <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
   </a>
+  <a aria-label="Vercel logo" href="https://reactrouter.com/">
+    <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white">
+  </a>
   <a aria-label="Vercel logo" href="https://www.javascript.com/">
     <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
   </a>
   <a aria-label="NPM version" href="https://www.npmjs.com/">
     <img alt="" src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
   </a>
+   <a aria-label="NPM version" href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5">
+    <img alt="" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+  </a>
+   <a aria-label="NPM version" href="https://www.w3schools.com/css/">
+    <img alt="" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  </a>
    <a aria-label="NPM version" href="https://firebase.google.com/">
     <img alt="" src="https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black">
   </a>
 </p>
 
-# Getting Started with Create React App
+
+# Project Name : Covid-19
+
+A Web App made with React.Js to show the COVID-19 stats in our country (India) and the world as well. 
+Since I'm not the official (Government) so the stats data in the web app is coming from public API. <br/> <br/>
+`Check out the web app using the link below in Depolyment section.`
+
+# Technologies
+- HTML
+- CSS
+- JavaScript 
+- React.js
+- FireBase (for hosting)
+- Visual Studio Code
+- Git & GitHub <br/>
+`For the API resource please check out the site`
+# Some important information about React
+
+ 
+Getting Started with Create React App
 
 In the project directory, you can run:
 
@@ -45,14 +73,11 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`Check out this web app using the link below`
 
+# Deployment
 
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Link : https://covid-19-3bf9d.firebaseapp.com
+## Link : https://covid-19-3bf9d.web.app
+## If you like this please give it a star.🤝
+# Thank-you for visiting 🤗😉😊
