@@ -27,13 +27,14 @@
     -webkit-backdrop-filter: blur( 10px );
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.719);
     border-radius: 10px;
+    margin-top: -20px;
 }
 .myimg{
     height: 200px;
     width: 200px;
     border-radius: 80%;
     margin: 20px;
-    box-shadow: 5px 5px 10px #000000b4;
+    /* box-shadow: 5px 5px 10px #000000b4; */
 }
 .content{
     font-family: 'Roboto Condensed', sans-serif;
@@ -41,6 +42,7 @@
     color: #fff;
     text-align: center;
     margin: 10px 70px;
+    margin-top: -50px;
 }
 .content p{
     font-family: 'Roboto Condensed', sans-serif;
@@ -75,13 +77,14 @@
 }
 
 @media (max-width: 571px){
-    .myimg{
+    /* .myimg{
         height: 180px;
         width: 180px;
-    }
+    } */
     .content{
         font-size: 1rem;
         margin: 10px 20px;
+        margin-top: -50px;
     }
     .content p{
         font-size: 1.2rem;

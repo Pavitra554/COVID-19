@@ -1,5 +1,7 @@
 import "../style/Developer.css";
-import myPic from "../assets/me.jpg";
+import Lottie from "lottie-react";
+import hello from "../assets/robot-says-hello.json";
+// import myPic from "../assets/me.jpg";
 import Facebook from "../assets/Facebook.png";
 import Instagram from "../assets/Instagram.png";
 import GitHub from "../assets/GitHub.png";
@@ -13,7 +15,13 @@ const Developer = () => {
       <div className="mainpage">
         <div className="me">
           <div>
-            <img className="myimg" src={myPic} alt="Loading..." />
+            {/* <img className="myimg" src={myPic} alt="Loading..." /> */}
+            <Lottie className='myimg' animationData={hello}
+            style={{
+              height:250,
+              width:250
+            }}
+            />
           </div>
           <div className="content">
             <h1>Hey there! I'm Pavitra.</h1>
