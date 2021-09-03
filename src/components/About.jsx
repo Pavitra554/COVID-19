@@ -25,8 +25,9 @@ const About = () => {
       <div className="apilinks">
             Used API
             <ul>
-                <li> <a href="https://covid-19.dataflowkit.com/v1" target='_blank'rel="noreferrer" >https://covid-19.dataflowkit.com/v1</a></li>
-                <li><a href="https://api.rootnet.in/covid19-in/stats/latest" target='_blank'rel="noreferrer" >https://api.rootnet.in/covid19-in/stats/latest</a></li>
+                <li>World Stats : <a href="https://disease.sh/v3/covid-19/all" target='_blank'rel="noreferrer" >https://disease.sh/v3/covid-19/all</a></li>
+                <li>India Stats : <a href="https://disease.sh/v3/covid-19/countries/india" target='_blank'rel="noreferrer" >https://disease.sh/v3/covid-19/countries/india</a></li>
+                <li>India State wise : <a href="https://api.rootnet.in/covid19-in/stats/latest" target='_blank'rel="noreferrer" >https://api.rootnet.in/covid19-in/stats/latest</a></li>
             </ul>
         </div>
         <div className="made">

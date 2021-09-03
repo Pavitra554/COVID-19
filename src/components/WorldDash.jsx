@@ -11,9 +11,9 @@ const WorldDash = () => {
 
   const getWorldData = async () => {
     try {
-      const res = await fetch("https://covid-19.dataflowkit.com/v1");
+      const res = await fetch("https://disease.sh/v3/covid-19/all");
       const worlddata = await res.json();
-      setdata(worlddata[0]);
+      setdata(worlddata);
       setpending(false);
      // console.log(data["Total Cases_text"]);
     } catch (error) {
@@ -39,27 +39,30 @@ const WorldDash = () => {
        
           <div className="top-head">
             <div className="dot"></div>
-            <h1>WORLD<h3 className="time">Last Updated on {data["Last Update"]}</h3></h1>
+            <h1>WORLD
+              {/* <h3 className="time">Last Updated on </h3> */}
+              </h1>
           </div>
           <div className="dashboard">
             <div className="databoxes Confirmed">
               {" "}
               Confirmed
-              <div className="data">{data["Total Cases_text"]}</div>
-              <div className="increase">{data["New Cases_text"]}</div>
+              <div className="data">{data.cases}</div>
+              <div className="increase">+{data.todayCases}</div>
             </div>
             <div className="databoxes Active">
               Active
-              <div className="data">{data["Active Cases_text"]}</div>
+              <div className="data">{data.active}</div>
             </div>
             <div className="databoxes Recovered">
               Recovered
-              <div className="data">{data["Total Recovered_text"]}</div>
+              <div className="data">{data.recovered}</div>
+              <div className="increase">+{data.todayRecovered}</div>
             </div>
             <div className="databoxes Deceased">
               Deceased
-              <div className="data">{data["Total Deaths_text"]}</div>
-              <div className="increase">{data["New Deaths_text"]}</div>
+              <div className="data">{data.deaths}</div>
+              <div className="increase">+{data.todayDeaths}</div>
             </div>
           </div>
         </>
