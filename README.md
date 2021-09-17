@@ -37,10 +37,9 @@ Since I'm not the official (Government) so the stats data in the web app is comi
 `Check out the web app using the link below in Depolyment section.`
 
 # Technologies
-- HTML
-- CSS
-- JavaScript 
 - React.js
+- JavaScript 
+- CSS
 - FireBase (for hosting)
 - Visual Studio Code
 - Git & GitHub <br/>
