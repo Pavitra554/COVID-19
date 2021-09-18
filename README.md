@@ -18,9 +18,7 @@
   <a aria-label="NPM version" href="https://www.npmjs.com/">
     <img alt="" src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white">
   </a>
-   <a aria-label="NPM version" href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5">
-    <img alt="" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-  </a>
+  
    <a aria-label="NPM version" href="https://www.w3schools.com/css/">
     <img alt="" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
   </a>
