@@ -22,8 +22,8 @@
    <a aria-label="NPM version" href="https://www.w3schools.com/css/">
     <img alt="" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
   </a>
-   <a aria-label="NPM version" href="https://firebase.google.com/">
-    <img alt="" src="https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black">
+   <a aria-label="NPM version" href="https://vercel.com">
+    <img alt="" src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
   </a>
 </p>
 
