@@ -74,7 +74,6 @@ Your app is ready to be deployed!
 
 # Deployment
 
-## Link : https://covid-19-3bf9d.firebaseapp.com
-## Link : https://covid-19-3bf9d.web.app
+## Link : https://covid-19-jet.vercel.app/
 ## If you like this please give it a star.🤝
 # Thank-you for visiting 🤗😉😊
