@@ -24,7 +24,7 @@ const StateData = () => {
   };
   useEffect(() => {
     getStateData();
-  },[null]);
+  });
   return (
     <>
     {error && <> <Errorpage/></>}
